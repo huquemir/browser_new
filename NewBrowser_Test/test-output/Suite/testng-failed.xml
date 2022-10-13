@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="3" name="ChromeTest(failed)" parallel="classes">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.selenium.challenges.ClickOnRadioButton">
+        <methods>
+          <include name="logout"/>
+          <include name="quitApplication"/>
+          <include name="radioButton"/>
+          <include name="login"/>
+          <include name="browsers"/>
+        </methods>
+      </class> <!-- com.selenium.challenges.ClickOnRadioButton -->
+      <class name="com.runner.RunnerClass">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.runner.RunnerClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="3" name="EdgeTest(failed)" parallel="classes">
+    <parameter name="browserType" value="edge"/>
+    <classes>
+      <class name="com.selenium.challenges.ClickOnRadioButton">
+        <methods>
+          <include name="logout"/>
+          <include name="quitApplication"/>
+          <include name="radioButton"/>
+          <include name="login"/>
+          <include name="browsers"/>
+        </methods>
+      </class> <!-- com.selenium.challenges.ClickOnRadioButton -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

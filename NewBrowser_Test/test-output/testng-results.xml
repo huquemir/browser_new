@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14528" started-at="2022-10-12T22:49:50Z" finished-at="2022-10-12T22:50:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@58a9760d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@4e3958e7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@68e5eea7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="4647" started-at="2022-10-12T22:49:50Z" finished-at="2022-10-12T22:49:55Z">
+      <class name="com.runner.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.RunnerClass@58a9760d]" name="setUpClass" is-config="true" duration-ms="334" started-at="2022-10-12T22:49:50Z" finished-at="2022-10-12T22:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="befTest(java.lang.String)[pri:0, instance:com.runner.RunnerClass@58a9760d]" name="befTest" is-config="true" duration-ms="7" started-at="2022-10-12T22:49:50Z" finished-at="2022-10-12T22:49:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@58a9760d]" name="runScenario" duration-ms="4219" started-at="2022-10-12T22:49:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T22:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive tests"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[I want to login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afTest()[pri:0, instance:com.runner.RunnerClass@58a9760d]" name="afTest" is-config="true" duration-ms="1" started-at="2022-10-12T22:49:55Z" finished-at="2022-10-12T22:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afTest -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass@58a9760d]" name="tearDownClass" is-config="true" duration-ms="66" started-at="2022-10-12T22:49:55Z" finished-at="2022-10-12T22:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.RunnerClass -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="4619" started-at="2022-10-12T22:49:55Z" finished-at="2022-10-12T22:49:59Z">
+      <class name="com.runner.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.RunnerClass@4e3958e7]" name="setUpClass" is-config="true" duration-ms="7" started-at="2022-10-12T22:49:55Z" finished-at="2022-10-12T22:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="befTest(java.lang.String)[pri:0, instance:com.runner.RunnerClass@4e3958e7]" name="befTest" is-config="true" duration-ms="1" started-at="2022-10-12T22:49:55Z" finished-at="2022-10-12T22:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@4e3958e7]" name="runScenario" duration-ms="4604" started-at="2022-10-12T22:49:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T22:49:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive tests"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[I want to login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass@4e3958e7]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2022-10-12T22:49:59Z" finished-at="2022-10-12T22:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afTest()[pri:0, instance:com.runner.RunnerClass@4e3958e7]" name="afTest" is-config="true" duration-ms="0" started-at="2022-10-12T22:49:59Z" finished-at="2022-10-12T22:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afTest -->
+      </class> <!-- com.runner.RunnerClass -->
+    </test> <!-- FirefoxTest -->
+    <test name="EdgeTest" duration-ms="5243" started-at="2022-10-12T22:49:59Z" finished-at="2022-10-12T22:50:05Z">
+      <class name="com.runner.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.RunnerClass@68e5eea7]" name="setUpClass" is-config="true" duration-ms="8" started-at="2022-10-12T22:49:59Z" finished-at="2022-10-12T22:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="befTest(java.lang.String)[pri:0, instance:com.runner.RunnerClass@68e5eea7]" name="befTest" is-config="true" duration-ms="0" started-at="2022-10-12T22:49:59Z" finished-at="2022-10-12T22:49:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerClass@68e5eea7]" name="runScenario" duration-ms="5230" started-at="2022-10-12T22:49:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T22:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive tests"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[I want to login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.RunnerClass@68e5eea7]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2022-10-12T22:50:05Z" finished-at="2022-10-12T22:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afTest()[pri:0, instance:com.runner.RunnerClass@68e5eea7]" name="afTest" is-config="true" duration-ms="0" started-at="2022-10-12T22:50:05Z" finished-at="2022-10-12T22:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afTest -->
+      </class> <!-- com.runner.RunnerClass -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
